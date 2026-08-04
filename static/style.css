@@ -137,8 +137,20 @@ a { color: inherit; }
 .hero-headline .line-accent {
   font-style: italic;
   font-weight: 600;
-  color: var(--marigold-500);
+  color: #ffffff;
 }
+Cách sửa trên GitHub:
+
+Vào repo → static/style.css
+Bấm bút chì (Edit)
+Tìm đến dòng 137-141 như trên, sửa color: var(--marigold-500); → color: #ffffff;
+Kéo xuống, Commit changes → chọn "Commit directly to the main branch"
+Đợi Render tự deploy lại (1-2 phút), refresh trang xem kết quả
+Bạn có muốn giữ nghiêng + đậm như cũ (chỉ đổi màu) hay muốn mình gợi ý thêm hiệu ứng khác (ví dụ thêm bóng đổ nhẹ để chữ trắng nổi bật hơn trên nền ảnh) không?
+
+
+
+
 .hero-headline .divider-dash {
   color: var(--marigold-500);
   font-weight: 400;
